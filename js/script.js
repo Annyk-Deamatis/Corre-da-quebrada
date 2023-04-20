@@ -34,7 +34,7 @@ function preto(){
     document.getElementById("body").style.background = "#f4f4f4";
     document.querySelector("#header").style.background = "#f4f4f4";
     document.querySelector("#carrinho-btn").style.color = "#f05483";
-    document.querySelector("label").style.color = "#f05483";
+    document.querySelector("#search-btn").style.color = "#f05483";
     document.querySelector("#header").style.border = "2px solid #d0d0d0";
     document.querySelector("#hoome").style.color = "#13131a";
     document.querySelector("#Sobre").style.color = "#13131a";
@@ -69,4 +69,8 @@ function preto(){
     document.querySelector("#boxpessoa2").style.background = "#f0548350";
     document.querySelector("#boxpessoa3").style.background = "#f0548350";
     document.querySelector("#boxpessoa4").style.background = "#f0548350";
+    document.querySelector("#p1").style.color = "#000";
+    document.querySelector("#p2").style.color = "#000";
+    document.querySelector("#p3").style.color = "#000";
+    document.querySelector("#p4").style.color = "#000";
 }
