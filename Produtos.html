@@ -9,26 +9,26 @@
     <link rel="shortcut icon" href="img/logo.png" type="image/icon" />
     <title>Produtos</title>
 </head>
-<body>
+<body id="body_produtos">
 
-    <header class="header">
+    <header class="header" id="header-pdt">
         <a href="#" class="logo">
             <img src="img/logo.png" alt="logo_da_página">
         </a>
 
         <nav class="navbar">
-            <a href="./index.html   ">Home</a>
-            <a href="#canecas">Canecas</a>
-            <a href="#Camisetas">Camisetas</a>
-            <a href="#Quadro">Quadro Mdf</a>
-            <a href="#Chaveiro">Chaveiro</a>
-            <a href="#moletom">Moletom</a>
-            <a href="#Azulejo">Azulejo</a>
+            <a id="home-pdt" href="./index.html">Home</a>
+            <a id="canecas" href="#canecas">Canecas</a>
+            <a id="camisetas" href="#Camisetas">Camisetas</a>
+            <a id="quadro" href="#Quadro">Quadro Mdf</a>
+            <a id="chaveiro" href="#Chaveiro">Chaveiro</a>
+            <a id="moletom" href="#moletom">Moletom</a>
+            <a id="azulejo" href="#Azulejo">Azulejo</a>
         </nav>
 
         <div id="icons">
-            <div class="fas fa-search" id="search-btn"></div>
-            <div class="fas fa-shopping-cart" id="carrinho-btn"></div>
+            <div class="fas fa-search" id="search-btn-pdt"></div>
+            <div class="fas fa-shopping-cart" id="carrinho-btn-pdt"></div>
             <div class="fas fa-bars" id="menu-btn"></div>
         </div>
 
@@ -82,7 +82,7 @@
 
             <h1 class="heading"> Nossos <span>produtos</span></h1>
     
-            <h1 class="heading"> <span style="color:rgb(255, 222, 172)">Canecas</span></h1>
+            <h1 class="heading"> <span style="color:#f05483">Canecas</span></h1>
             <div class="box-container">
                 <div id="canecas">
                     <div class="box">
@@ -496,7 +496,7 @@
 
         <section class="produtos" id="produtos"> <!--Quadro em mdf -->
     
-            <h1 class="heading"> <span style="color:rgb(255, 222, 172)">Quadro em Mdf</span></h1>
+            <h1 class="heading"> <span style="color:#f05483">Quadro em Mdf</span></h1>
 
             <div class="box-container">
                 <div id="Quadro">
@@ -686,7 +686,7 @@
 
         <section class="produtos" id="produtos"> <!--   Moletom   -->
     
-            <h1 class="heading"> <span style="color:rgb(255, 222, 172)">Moletom</span></h1>
+            <h1 class="heading"> <span style="color:#f05483">Moletom</span></h1>
 
             <div class="box-container">
                 <div id="moletom">
@@ -900,26 +900,43 @@
                 </div>        
         </section>
 
-        <section class="footer">
+        <section class="footer" id="footer_produtos">
 
             <div class="share">
-                <a href="" class="fab fa-facebook-f"></a>
-                <a href="" class="fab fa-twitter"></a>
-                <a href="https://instagram.com/estampariabilu?igshid=YmMyMTA2M2Y=" class="fab fa-instagram" target="_blank"></a>
-                <a href="" class="fab fa-linkedin"></a>
-                <a href="" class="fab fa-pinterest"></a>
+                <a href="" class="fab fa-facebook-f" id="icone-pdt"></a>
+                <a href="" class="fab fa-twitter" id="icone1-pdt"></a>
+                <a href="https://instagram.com/estampariabilu?igshid=YmMyMTA2M2Y=" class="fab fa-instagram" target="_blank" id="icone3-pdt"></a>
+                <a href="" class="fab fa-linkedin" id="icone4-pdt"></a>
+                <a href="" class="fab fa-pinterest" id="icone5-pdt"></a>
             </div>
     
             <div class="links">
-                <a href="./Bilu.html">Home</a>
-                <a href="./Bilu.html">Sobre</a>
-                <a href="./Bilu.html">Menu</a>
-                <a href="./Bilu.html">Produtos</a>
-                <a href="./Bilu.html">Feedbacks</a>
-                <a href="./Bilu.html">Contato</a>
-                <a href="./Bilu.html">Blog</a>
+                <a id="homepdt" href="./Bilu.html">Home</a>
+                <a id="sobrepdt" href="./Bilu.html">Sobre</a>
+                <a id="menupdt" href="./Bilu.html">Menu</a>
+                <a id="produtopdt" href="./Bilu.html">Produtos</a>
+                <a id="contatopdt" href="./Bilu.html">Contato</a>
+                <div id="icons" class="modo-noturno">
+                    <img src="./img/temanoturno.png" alt ="modoclaro" id="claro" value="modo claro" onclick="claro()" >
+                </div>
             </div>
     
         </section>
 </body>
+
+    
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript link -->
+<script src="js/script.js"></script>
+
+
 </html>

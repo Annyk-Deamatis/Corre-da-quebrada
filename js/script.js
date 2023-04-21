@@ -74,3 +74,34 @@ function preto(){
     document.querySelector("#p3").style.color = "#000";
     document.querySelector("#p4").style.color = "#000";
 }
+
+
+function claro(){
+    document.querySelector("#body_produtos").style.background = "#f0548335";
+    document.querySelector("#footer_produtos").style.background = "#f0548335";
+    document.querySelector("#carrinho-btn-pdt").style.color = "#f05483";
+    document.querySelector("#search-btn-pdt").style.color = "#f05483";
+    document.querySelector("#header-pdt").style.background = "#f4f4f4";
+    document.querySelector("#home-pdt").style.color = "#13131a";
+    document.querySelector("#canecas").style.color = "#13131a";
+    document.querySelector("#camisetas").style.color = "#13131a";
+    document.querySelector("#quadro").style.color = "#13131a";
+    document.querySelector("#chaveiro").style.color = "#13131a";
+    document.querySelector("#moletom").style.color = "#13131a";
+    document.querySelector("#azulejo").style.color = "#13131a";
+    document.querySelector("#homepdt").style.color = "#13131a";
+    document.querySelector("#sobrepdt").style.color = "#13131a";
+    document.querySelector("#menupdt").style.color = "#13131a";
+    document.querySelector("#produtopdt").style.color = "#13131a";
+    document.querySelector("#contatopdt").style.color = "#13131a";
+    document.querySelector("#icone-pdt").style.color = "#13131a";
+    document.querySelector("#icone-pdt").style.border = "1px solid #13131a";
+    document.querySelector("#icone3-pdt").style.color = "#13131a";
+    document.querySelector("#icone3-pdt").style.border = "1px solid #13131a";
+    document.querySelector("#icone4-pdt").style.color = "#13131a";
+    document.querySelector("#icone4-pdt").style.border = "1px solid #13131a";
+    document.querySelector("#icone5-pdt").style.color = "#13131a";
+    document.querySelector("#icone5-pdt").style.border = "1px solid #13131a";
+    document.querySelector("#icone1-pdt").style.color = "#13131a";
+    document.querySelector("#icone1-pdt").style.border = "1px solid #13131a";
+}
